@@ -1,0 +1,4 @@
+3_1 : 3_1.o
+	g++ -o 3_1 3_1.o
+3_1.o : Embedded_chapter3_1.cpp
+	g++ -c Embedded_chapter3_1.cpp -o 3_1.o
