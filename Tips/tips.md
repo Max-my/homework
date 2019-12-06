@@ -1,7 +1,7 @@
 重启网卡
 
 > service network restart
-
+> service network-manager restart(ubuntu 19.10)
 
 查看当前文件夹占用
 
